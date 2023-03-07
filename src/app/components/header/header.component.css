@@ -1,0 +1,21 @@
+.title {
+  font-size: 55px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 10px;
+  width: min-content;
+  height: min-content;
+  background-color: #eeeeee;
+  outline: none;
+  border: none;
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

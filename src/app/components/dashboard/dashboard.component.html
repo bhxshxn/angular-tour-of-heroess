@@ -1,0 +1,8 @@
+<div class="flex">
+	<div *ngFor="let item of heroes"><a style="text-decoration: none; color: black;" [routerLink]="'hero/'+item.id">
+			<div class="card">
+				{{item.name}}
+			</div>
+		</a>
+	</div>
+</div>

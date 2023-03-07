@@ -1,0 +1,7 @@
+<div *ngFor="let item of heros"><a style="text-decoration: none; color: black;" [routerLink]="'/hero/'+item.id">
+		<div class="item">
+			<span class="item-span">{{item.id}}</span>
+			<p class="item-p">{{item.name}}</p>
+		</div>
+	</a>
+</div>
